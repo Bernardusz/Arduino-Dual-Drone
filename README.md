@@ -28,7 +28,7 @@ This project is a micro drone built on **Arduino Uno** featuring:
 ## 🧩 Folder Structure
 
 ```bash
-Dual-Drone/
+Arduino-Dual-Drone/
 ├── include/          
 │   ├── drone.h
 │   ├── sensor.h
