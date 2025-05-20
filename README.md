@@ -50,6 +50,7 @@ Arduino-Dual-Drone/
 - Arduino Uno (CH340)
 - 2x A2212 1000KV Brushless Motor
 - 2x 30A ESC with BEC
+- 2x Pairs of 1045L/R Propellers for brushless motors (CW & CCW)
 - 1x MPU6050 (Gyroscope & Accelerometer)
 - HC-05 Bluetooth Module
 - Li-Po 7.4V 1500mAh 2S Battery (You can upgrade to Li-Po 3S (11.1V) Battery
