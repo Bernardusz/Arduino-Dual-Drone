@@ -110,6 +110,7 @@ Arduino-Dual-Drone/
 | Joyce K. | Programmer |
 | Isaac Primo Djojo | Hardware Builder / Hardware Wiring |
 | Matthew Filbert Johari | Hardware Builder |
+| Mr. Tito Vicente Maia, S.T. | Teacher and Main Advisor |
 
 ---
 
