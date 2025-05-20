@@ -8,10 +8,28 @@ void setup() {
   // put your setup code here, to run once:
   initializeSensor();
   initializeBluetooth();
+  initializeDrone();
+  delay(2000);
   
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  readSensor(ax, ay, az, gx, gy, gz);
+  if (gy > 20){
+    droneController('R');
+  }
+  else if (gy < -20){
+    droneController('L');
+  }
+  else {
+    if (Serial.available() > 0) {
+      char command = readBluetooth();
+      droneController(command);
+    }
+    else{
+      droneController('V'); //Sending V as stop motor
+    }
+  }
 }
 

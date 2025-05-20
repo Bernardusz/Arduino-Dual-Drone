@@ -11,5 +11,14 @@ void initializeSensor() {
 }
 
 void readSensor(float &ax, float &ay, float &az, float &gx, float &gy, float &gz) {
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
 
+  ax = a.acceleration.x;
+  ay = a.acceleration.y;
+  az = a.acceleration.z;
+
+  gx = g.gyro.x;
+  gy = g.gyro.y;
+  gz = g.gyro.z;
 }
