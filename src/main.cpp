@@ -13,5 +13,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  readSensor(ax, ay, az, gx, gy, gz);
+  char command = readBluetooth();
 }
 
