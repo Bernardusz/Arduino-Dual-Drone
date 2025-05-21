@@ -108,8 +108,8 @@ Arduino-Dual-Drone/
 | Christopher  | Hardware Wiring |
 | Hugo | Hardware Builder / Hardware Wiring |
 | Joyce K. | Programmer |
-| Isaac Primo Djojo | Hardware Builder / Hardware Wiring |
-| Matthew Filbert Johari | Hardware Builder |
+| Isaac | Hardware Builder / Hardware Wiring |
+| Matthew | Hardware Builder |
 | Mr. Tito Vicente Maia, S.T. | Teacher and Main Advisor |
 
 ---
