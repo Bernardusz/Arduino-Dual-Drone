@@ -6,7 +6,6 @@ Servo motorLeft;
 Servo motorRight;
 
 static void moveForward();
-static void moveBackward();
 static void turnLeft();
 static void turnRight();
 static void stopMotors();
@@ -19,7 +18,6 @@ void droneController(char command){
         case 'R': addSpeedRight(); break;
         case 'W': moveForward(); break;
         case 'A': turnLeft(); break;
-        case 'S': moveBackward(); break;
         case 'D': turnRight(); break;
         case 'V': stopMotors(); break;
     }
@@ -32,14 +30,9 @@ void initializeDrone(){
     motorLeft.writeMicroseconds(1000);
     motorRight.writeMicroseconds(1000);
 }
-
 static void moveForward(){
     motorLeft.writeMicroseconds(1500);
     motorRight.writeMicroseconds(1500);
-}
-static void moveBackward(){
-    motorLeft.writeMicroseconds(1200);
-    motorRight.writeMicroseconds(1200);
 }
 static void turnLeft(){
     motorLeft.writeMicroseconds(1200);
