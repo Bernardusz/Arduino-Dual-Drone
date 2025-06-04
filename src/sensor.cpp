@@ -6,8 +6,8 @@
 Adafruit_MPU6050 mpu;
 
 void initializeSensor() {
-    Wire.begin();
-    mpu.begin();
+  Wire.begin();
+  mpu.begin();
 }
 
 void readSensor(float &ax, float &ay, float &az, float &gx, float &gy, float &gz) {

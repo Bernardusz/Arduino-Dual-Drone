@@ -17,10 +17,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   readSensor(ax, ay, az, gx, gy, gz);
   if (gy > 20){
-    droneController('R');
+    droneController('D');
   }
   else if (gy < -20){
-    droneController('L');
+    droneController('A');
   }
   else {
     if (Serial.available() > 0) {
@@ -28,7 +28,7 @@ void loop() {
       droneController(command);
     }
     else{
-      droneController('V'); //Sending V as stop motor
+      droneController('B'); //Sending B as stop motor
     }
   }
 }
